@@ -12,6 +12,7 @@ app.use(cors());
 
 app.use(express.json());
 
+/*
 chatHistory.push({
   role: "system",
   content: `Welcome to the AI Technical Interview! To begin, please introduce yourself and share a bit about your technical background and experiences."
@@ -42,7 +43,7 @@ chatHistory.push({
 
     `,
 });
-
+*/
 
 app.post("/api/chatbot", async (req, res) => {
   const userMessage = req.body.userMessage;
